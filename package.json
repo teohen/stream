@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "csv-reader": "^1.0.7"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
