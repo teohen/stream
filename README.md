@@ -1,13 +1,12 @@
-# stream
+# Stream
 
 This is an example of using Streams for processing large files in Node. In this case, a CSV file containing public telephone locations (TUP) all across Brazil.
 
 # Running
 
 To run this project, you'll need:
-**Node**
-**Yarn (or npm)**
-Also, you'll have to download the complete TUP file on the following adress and place it on the [data] (`./stream/data`) directory
+**Node** and **Yarn (or npm)**.
+Also, you'll have to download the complete TUP file on the following adress and place it on the data (`./stream/data`) directory:
 (https://sistemas.anatel.gov.br/geoserver/ANATEL/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ANATEL:TUP&outputFormat=CSV)
 
 # Explanation
@@ -16,4 +15,4 @@ After running this code, node will use a Read Stream for reading the `TUP.csv` f
 
 # Templates
 
-A template of the `TUP.csv` file is available on the root directory for testing porposes. If you don't want to download the complete file. It should be placed on the `data/` directory as renamed as `TUP.csv`
+A template of the `TUP.csv` file is available on the root directory for testing porposes in case that you don't want to download the complete file. It should be placed on the `data/` directory as renamed as `TUP.csv`
