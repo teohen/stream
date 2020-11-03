@@ -16,4 +16,4 @@ After running this code, node will use a Read Stream for reading the `TUP.csv` f
 
 # Templates
 
-A template of the `TUP.csv` file is available on the root directory for testing porpuses. If you don't want to download the complete file. It should be placed on the `data/` directory as renamed as `TUP.csv`
+A template of the `TUP.csv` file is available on the root directory for testing porposes. If you don't want to download the complete file. It should be placed on the `data/` directory as renamed as `TUP.csv`
