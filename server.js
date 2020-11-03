@@ -7,10 +7,10 @@ const CsvReadableStream = require('csv-reader');
     inputStream
     .on('open', function () {
         console.log('Read Stream open!')
+        console.log('Processing data...')
     })
     .pipe(new CsvReadableStream({ parseNumbers: true, parseBooleans: true, trim: true }))
     .on('data', function (row) {        
-        console.log('processing data')
         const stateUF = row[9]
         if(stateUF.length == 2 ){
             const writeStream = writableStreamManager(stateUF)
