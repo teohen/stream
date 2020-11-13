@@ -24,4 +24,4 @@ PS: the `join.js` file was created base on the project found in (https://github.
 
 # Templates
 
-A template of the `TUP.template.csv` file is available on the root directory for testing porposes in case that you don't want to download the complete file. It should be placed on the `data/` directory as renamed as `TUP.csv`
+A template of the `TUP.csv` file and the separated files are available on the `data` folder for testing porposes, in case that you don't want to download the complete file. It should be placed on the `data/` folder and renamed as `TUP.csv`
