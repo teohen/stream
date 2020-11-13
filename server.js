@@ -30,7 +30,7 @@ const CsvReadableStream = require('csv-reader');
 function writableStreamManager(key){
     let writableStream = writeStreams.get(key)
     if (!writableStream)
-        writableStream = fs.createWriteStream(`${__dirname}/data/${key}.csv`, 'utf-8')
+        writableStream = fs.createWriteStream(`${__dirname}/data/separated/${key}.csv`, 'utf-8')
 
     writeStreams.set(key, writableStream)
 
