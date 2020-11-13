@@ -8,7 +8,7 @@ const { pathname } = new URL(import.meta.url)
 
 const cwd = dirname(pathname)
 
-    let inputStream = createReadStream(`${cwd}/TUP.template.csv`, 'utf8');
+    let inputStream = createReadStream(`${cwd}/data/TUP.template.csv`, 'utf8');
     const writeStreams = new Map()
     inputStream
     .on('open', function () {
