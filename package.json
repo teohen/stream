@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "csv-reader": "^1.0.7"
   },
