@@ -4,7 +4,7 @@ This is an example of using Streams for processing large files in Node. In this 
 
 # Stream
 
-The Stream API (https://nodejs.org/api/stream.html) provide powerful tools for node developers. One of many use cases for stream is to process large files. In this case, node will load one chunk of data at a time in memory, transform it or pipe it to another stream object. Thus, never having to load the whole file in memory, saving resources and producing a better processing flow.
+The Stream API (https://nodejs.org/api/stream.html) provides a set of powerful tools for node developers. One of many use cases for stream is to process large files. Using Streams, node will load one chunk of data at a time in memory, transform it or pipe it to another stream object. Thus, never having to load the whole file in memory, saving resources and producing a better processing flow.
 
 # Running
 
